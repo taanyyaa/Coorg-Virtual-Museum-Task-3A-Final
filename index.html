@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <img src="B.png" alt="brahmgiri" id="brahm">
+   <img src="T.png" alt="talakauvery" id="tala">
+   <img src="P.png" alt="pushpagiri" id="pushp">
+   <img src="n.png" alt="nagarghole" id="nagar">
+   <img src="speech.png" alt="speech" id="speech">
+
+    <div class="containerMain">
+        <div class="containerImage"></div>
+        <div class="containerImage2"></div>
+        <div class="containerImage3"></div>
+        <div class="containerImage4"></div>
+    </div>
+
+    <audio id="myAudio" controls autoplay>
+        <source src="Audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <canvas class="webgl"></canvas>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"
+    integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="panolens.min.js"></script>
+<script src="https://rawcdn.githack.com/mrdoob/three.js/r105/examples/js/loaders/GLTFLoader.js"></script>
+<script src="OrbitControls.js"></script>
+<script type="module" src="main.js"></script>
+
+</html>
